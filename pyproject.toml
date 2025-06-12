@@ -1,0 +1,10 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project]
+name = "dsl-contract-ide"
+version = "1.0.0"
+description = "DSL Contract IDE"
+readme = "README.md"
+requires-python = ">=3.11"
+license = {text = "Proprietary"}
