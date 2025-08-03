@@ -3638,3 +3638,4 @@ def extra_lexer_1071(x):
     """Extra distinct 1071 for lexer"""
     return x
 def genuine_1(x): return x
+def genuine_2(x): return x
