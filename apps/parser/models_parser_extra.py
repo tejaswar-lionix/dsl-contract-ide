@@ -8,11 +8,11 @@ logger = logging.getLogger(__name__)
 # parser: Parser - grammar, AST, contract clauses
 # Details: grammar, AST, clauses
 
-class ParserStatus(str, Enum):
+class ParserExtraStatus(str, Enum):
     PENDING='pending'; ACTIVE='active'; FAILED='failed'
 
 @dataclass
-class ParserEntity:
+class ParserExtraEntity:
     """Parser - grammar, AST, contract clauses"""
     id: str = field(default_factory=lambda: str(uuid.uuid4()))
     created_at: float = field(default_factory=time.time)

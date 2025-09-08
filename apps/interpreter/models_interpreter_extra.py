@@ -8,11 +8,11 @@ logger = logging.getLogger(__name__)
 # interpreter: Interpreter - execution, obligations, breach detection
 # Details: execution, obligations, breach
 
-class InterpreterStatus(str, Enum):
+class InterpreterExtraStatus(str, Enum):
     PENDING='pending'; ACTIVE='active'; FAILED='failed'
 
 @dataclass
-class InterpreterEntity:
+class InterpreterExtraEntity:
     """Interpreter - execution, obligations, breach detection"""
     id: str = field(default_factory=lambda: str(uuid.uuid4()))
     created_at: float = field(default_factory=time.time)

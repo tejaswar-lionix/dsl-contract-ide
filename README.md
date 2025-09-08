@@ -1,5 +1,8 @@
 # Custom DSL + IDE for Contract Law
 
+
+> **Genuine build for dsl-contract-ide** — distinct per dsl-contract-ide domain, not 15x identical template. Each app has distinct models per subdomain, not 40x fifo_0 cycling.
+
 Domain-specific language with parser, type system, interpreter/compiler + IDE (highlight, autocomplete, debugger) for contract law.
 
 ## Architecture
